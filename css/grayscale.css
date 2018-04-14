@@ -1,10 +1,10 @@
 body {
-  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: relative;
   width: 100%;
   height: 100%;
   color: white;
-  background-color: black;
+  background-color: #1b1c23;
 }
 
 html {
@@ -56,7 +56,7 @@ a:focus, a:hover {
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: black;
+  background-color: #1b1c23;
 }
 
 #mainNav .navbar-toggler {
@@ -106,11 +106,11 @@ a:focus, a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: black;
+    background-color: #1b1c23;
   }
   #mainNav .nav-link.active {
     outline: none;
-    background-color: rgba(255, 255, 255, 0.3);
+    color: #00ccff;
   }
   #mainNav .nav-link.active:hover {
     color: white;
@@ -124,8 +124,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
-  background-color: black;
+  background-color: #1b1c23;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -186,8 +185,7 @@ a:focus, a:hover {
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
-  background-color: black;
+  background-color: #1b1c23;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -280,4 +278,9 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+#logo {
+  height: 80px;
+  width: auto;
 }
