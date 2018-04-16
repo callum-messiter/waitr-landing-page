@@ -10,7 +10,7 @@
 
     <title>Join the party | waitr</title>
 
-    <link rel="shortcut icon" type="image/png" href="/img/logo.png"/>
+    <link rel="shortcut icon" type="image/png" href="./img/logo.png"/>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -23,6 +23,16 @@
     <link href="css/grayscale.css" rel="stylesheet">
 
     <style>
+
+      .content-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+
+      .nav-link {
+        font-size: 18px;
+      }
+
       .sellingPoint {
         text-decoration: underline;
         color: #00ccff;
@@ -52,7 +62,41 @@
       }
 
       a, a:hover {
-        color: #00ccff ;
+        color: #00ccff;
+      }
+
+      .teamInfo_img {
+        margin-top: 20px;
+        height: 200px;
+        width: auto;
+      }
+
+      .teamInfo_name {
+        margin-bottom: 5px;
+        margin-top: 20px;
+      }
+
+      .teamInfo_string {
+        margin-bottom: 5px;
+        margin-top: 10px;
+        font-size: 15px;
+      }
+
+      .teamInfo_email {
+        color: #00ccff;
+      }
+
+      .contactIcon {
+        margin-right: 10px;
+        color: #00ccff;
+      }
+
+      .howItWorksIcon {
+        color: #00ccff;
+      }
+
+      .phoneLink {
+        color: white;
       }
     </style>
 
@@ -76,10 +120,16 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">How it works</a>
+              <a class="nav-link js-scroll-trigger" href="#howItWorks">How it works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Get Waitr</a>
+              <a class="nav-link js-scroll-trigger" href="#getWaitr">Get Waitr</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -147,13 +197,13 @@
     </section>
 
     <!-- HOW IT WORKS Section -->
-    <section id="download" class="download-section content-section text-center">
+    <section id="howItWorks" class="download-section content-section text-center">
       <div class="container">
         <div class="col-lg-8 mx-auto">
           <h2>How waitr works</h2>
           <div class="row">
             <div class="col-lg-6">
-              <h6>For Restaurants</h6>
+              <h6><i class="fa fa-home howItWorksIcon"></i> For Restaurants</h6>
               <ol>
                 <li><a href="https://app.waitr.live" class="bulletPoint">Create an account - for free!</a></li>
                 <li><p class="bulletPoint">Upload your menu via the interactive dashboard.</p></li>
@@ -164,7 +214,7 @@
               </ol>
             </div>
             <div class="col-lg-6">
-              <h6>For Diners</h6>
+              <h6><i class="fa fa-user howItWorksIcon"></i> For Diners</h6>
               <ol>
                 <li><a href="https://eat.waitr.live" class="bulletPoint">Create an account - for free!</a></li>
                 <li><p class="bulletPoint">Find your favourite restaurant.</p></li>
@@ -178,7 +228,7 @@
     </section>
 
     <!-- APPS Section -->
-    <section id="contact" class="content-section text-center">
+    <section id="getWaitr" class="content-section text-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -224,10 +274,59 @@
       </div>
     </section>
 
+    <!-- THE TEAM -->
+    <section id="team" class="download-section content-section text-center">
+      <div class="container">
+        <h2>The Team</h2>
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-4 offset-lg-2">
+                <img src="./img/olly.jpg" class="rounded-circle text-center teamInfo_img">
+                <p class="teamInfo_name">Oliver Salisbury</p>
+                <p class="teamInfo_string">Taking care of all things business. Get me at 
+                  <span class="teamInfo_email">oliver@waitr.live</span>
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <img src="./img/callum.jpg" class="rounded-circle text-center teamInfo_img">
+                <p class="teamInfo_name">Callum Messiter</p>
+                <p class="teamInfo_string">Taking care of all things tech. Get me at 
+                  <span class="teamInfo_email">callum@waitr.live</span>
+                </p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- THE TEAM -->
+    <section id="contact" class="download-section content-section text-center">
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="row justify-content-center">
+              <i class="fa fa-map-marker contactIcon"></i>
+              <p>Canterbury, Kent</p>
+            </div>
+            <div class="row justify-content-center">
+              <i class="fa fa-envelope contactIcon"></i>
+              <a href="tel:+447776385384" class="phoneLink"><p>07776385384</p></a>
+            </div>
+            <div class="row justify-content-center">
+              <i class="fa fa-phone contactIcon"></i>
+              <p>hello@waitr.live</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer>
       <div class="container text-center">
-        <p>waitr 2018</p>
+        <p><i class="fa fa-copyright"></i> waitr 2018</p>
       </div>
     </footer>
 
